@@ -81,6 +81,24 @@ const Index = () => {
 
   return (
     <div className="min-h-screen bg-slate-900 text-white overflow-x-hidden">
+      <style>
+        {`
+          @keyframes fade-in {
+            from {
+              opacity: 0;
+              transform: translateY(20px);
+            }
+            to {
+              opacity: 1;
+              transform: translateY(0);
+            }
+          }
+          .animate-fade-in {
+            animation: fade-in 0.8s ease-out forwards;
+          }
+        `}
+      </style>
+
       {/* Navigation */}
       <nav className="fixed top-0 w-full z-50 bg-slate-900/80 backdrop-blur-md border-b border-cyan-500/20">
         <div className="max-w-7xl mx-auto px-6 py-4">
