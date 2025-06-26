@@ -29,12 +29,6 @@ Welcome to my personal developer portfolio! This website showcases my projects, 
 
 ---
 
-## 📸 Screenshots
-
-_Add screenshots here if you want (optional)_
-
----
-
 ## 🏗️ Getting Started
 
 To run the portfolio locally:
